@@ -5,7 +5,7 @@ const mapStateToProps = (state) => ({
   light: state,
 });
 
-const mapDispatchToProps = (state) => ({
+const mapDispatchToProps = (dispatch) => ({
   onSwitch: () => dispatchEvent({ type: "SWITCH" }),
 });
 
